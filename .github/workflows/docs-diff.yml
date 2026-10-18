@@ -8,6 +8,6 @@ jobs:
   diff:
     runs-on: ubuntu-latest
     steps:
-      - uses: prithsk/mint-pr-diff@v0.1.0
+      - uses: prithsk/mint-pr-diff@v0.2.0
         with:
           preview_base_url: https://mintlify-${{ github.head_ref }}.mintlify.app
